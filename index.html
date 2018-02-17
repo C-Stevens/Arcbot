@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Arcbot - About Arcbot</title>
+    <title>Arcbot - About</title>
 
     <!-- Meta -->
 	<meta charset="utf-8">
@@ -12,7 +12,6 @@
 	<meta name="description" content="Mechanical chat enrichment associate for Discord">
 
     <!-- CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 	<link rel="stylesheet" href="./static/milligram.min.css">
 
     <!-- Icons -->
@@ -39,7 +38,7 @@
 		<nav class="no-select">
             
             
-                <h4>Getting Started</h4>
+                <h4 style="margin-bottom:1rem">Getting Started</h4>
                 <ul>
                 
                     <li><a href="./getting_started/install/">Install</a></li>
@@ -50,7 +49,7 @@
                 
                 </ul>
             
-                <h4>Plugins</h4>
+                <h4 style="margin-bottom:1rem">Plugins</h4>
                 <ul>
                 
                     <li><a href="./plugins/commands/">Commands</a></li>
@@ -67,7 +66,7 @@
                 
                 </ul>
             
-                <h4>Advanced</h4>
+                <h4 style="margin-bottom:1rem">Advanced</h4>
                 <ul>
                 
                     <li><a href="./advanced/web_socket/">Web Socket</a></li>
@@ -79,8 +78,28 @@
 		</nav>
         <section>
             
-    <h1>About Arcbot</h1>
-    
+    <h1>About</h1>
+    <p>Arcbot is an extensible chatbot written entirely in Python, inspired by
+<a href="https://github.com/errbotio/errbot">Errbot</a> and <a href="https://hubot.github.com/">Hubot</a> projects.
+The goal of this project is to provide a simple to extend bot framework for <a href="https://discordapp.com">Discord</a>.</p>
+<p>Batteries included:</p>
+<ul>
+<li>Simple command creation</li>
+<li>Hook any event from Discord</li>
+<li>Receive data ingress with webhooks</li>
+<li>Run code on a set interval</li>
+<li>Schedule code to be run after a time period</li>
+<li>Simple database interaction with MongoDB</li>
+<li>Intuitive Discord object mapping</li>
+</ul>
+<p>Arcbot originally started out as a simple Trivia Bot that used long polling and webhooks to read and
+write to chat channels. I became obsessed with making this bot more robust and at that time, no bots
+existed for Discord, so this bot evolved into a fully vetted framework that I could use to build
+functionality off of. This project is a place I can experiment with design ideas and evolve a sense
+of personal code standards. I treat it more as an academic project to learn about new libraries and
+tools available to me as Python continues to grow.</p>
+<h1 id="under-construction">Under construction</h1><p>This bot is seeing a redesign given the updates done to the Discord API</p>
+<div class="admonition admonition-note"><p>a note</p></div><div class="admonition admonition-info"><p>an informational message</p></div><div class="admonition admonition-tip"><p>a tip to users</p></div><div class="admonition admonition-warning"><p>a warning</p></div>
 
         </section>
 
@@ -88,6 +107,8 @@
 	<footer>
 		<hr>
 		Arcbot is open source software under the <a href="https://github.com/ns-phennessy/Arcbot/blob/master/LICENSE.txt">MIT License</a>
+        <br>
+        &copy; Patrick Hennessy <em>2015 - 2018</em>
 	</footer>
 
 </body>
